@@ -1,0 +1,84 @@
+body {
+  background-color: #dfe6e9;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: row;
+  height: 100%;
+  flex-wrap: wrap;
+  color: white;
+
+  font-size: 30px;
+}
+
+.js-todoDiv {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+}
+.js-nameDiv {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.ghost {
+  display: none;
+}
+
+.display {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-direction: row;
+  height: 100%;
+  flex-wrap: wrap;
+}
+
+.js-toDoList,
+.js-asIsList {
+  width: 100%;
+  text-align: center;
+}
+
+.js-clock {
+  font-size: 100px;
+  text-align: center;
+}
+
+.js-weather {
+  text-align: right;
+}
+
+.ta-c {
+  text-align: center;
+}
+
+.ta-r {
+  text-align: right;
+}
+
+.per100 {
+  width: 100%;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.bgImage {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  animation: fadeIn 1s linear;
+}

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="kr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="src/style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <span class="js-weather per100"></span>
+
+    <h2 class="js-clock per100"></h2>
+
+    <h1 class="js-greeting greetings per100 ta-c"></h1>
+    <div class="js-nameDiv ghost">
+      <form class="js-name per100 ta-c">
+        <input type="text" placeholder="Write your name" />
+      </form>
+    </div>
+    <div class="js-todoDiv ghost">
+      <form class="js-toDoForm per100 ta-c">
+        <input type="text" placeholder="Write a to do" />
+      </form>
+      <h1 class="per100 ta-c">Pending</h1>
+      <ul class="js-toDoList"></ul>
+
+      <h1 class="per100 ta-c">Finished</h1>
+      <ul class="js-asIsList"></ul>
+    </div>
+
+    <script src="src/name.js"></script>
+    <script src="src/bg.js"></script>
+    <script src="src/weather.js"></script>
+    <script src="src/clock.js"></script>
+    <script src="src/todo.js"></script>
+  </body>
+</html>
